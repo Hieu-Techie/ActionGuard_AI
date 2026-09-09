@@ -16,7 +16,7 @@ This document defines the non-negotiable engineering standards for this project.
 ## 2. Repository Structure (Mandatory)
 
 ```
-fall-detection/
+ActionGuard_AI/
 ├── notebooks/
 │   ├── 01_data_preparation.ipynb
 │   ├── 02_yolo_training.ipynb
@@ -42,10 +42,11 @@ fall-detection/
 │   └── events.csv              # Append-only alert log (gitignored, sample committed)
 ├── data/                       # Raw & annotated datasets (gitignored)
 ├── requirements.txt
-├── constitution.md
-├── spec.md
-├── plan.md
-└── tasks.md
+└── docs/
+    ├──constitution.md
+    ├── spec.md
+    ├── plan.md
+    └── tasks.md
 ```
 
 **Rule:** `app.py` must remain a thin orchestration layer. If `app.py` exceeds ~200 lines, logic has leaked into it and must be extracted into `src/pipeline/` or `src/ui/`.
