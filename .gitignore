@@ -1,0 +1,22 @@
+data/
+logs/*.csv
+!logs/events.csv
+__pycache__/
+.ipynb_checkpoints/
+
+# Local Python environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# Python tooling and local machine files
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Local editor settings
+.vscode/
