@@ -5,3 +5,4 @@ opencv-python==4.10.0.84
 streamlit==1.40.1
 pandas==2.2.3
 numpy==1.26.4
+mediapipe==0.10.18
