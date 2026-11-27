@@ -20,3 +20,8 @@ Thumbs.db
 
 # Local editor settings
 .vscode/
+
+# Toy models & scratch & internal planning docs
+models/toy_action_*.pth
+scratch/
+docs/

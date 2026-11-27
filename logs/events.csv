@@ -1,1 +1,37 @@
-timestamp,session_id,from_state,to_state,confidence,video_source
+timestamp,source,model,prev_level,new_level,action_label,confidence,frame_idx,video_time_s,note
+2026-11-21 18:23:35.840,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,GREEN,YELLOW,Lying,0.7524,51,1.70,State transition
+2026-11-21 18:23:41.269,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,YELLOW,GREEN,Stand_Up,0.9037,135,4.50,State transition
+2026-11-21 18:23:45.912,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,GREEN,YELLOW,Lying,0.5532,207,6.90,State transition
+2026-11-21 18:23:47.232,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,YELLOW,GREEN,Sit_Down,0.5935,231,7.70,State transition
+2026-11-21 18:23:57.780,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,GREEN,YELLOW,Lying,0.8571,423,14.10,State transition
+2026-11-21 18:30:53.249,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,GREEN,YELLOW,Lying,0.7524,51,1.70,State transition
+2026-11-21 18:30:57.437,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,YELLOW,GREEN,Stand_Up,0.9037,135,4.50,State transition
+2026-11-21 18:31:00.836,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,GREEN,YELLOW,Lying,0.5532,207,6.90,State transition
+2026-11-21 18:31:02.035,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,YELLOW,GREEN,Sit_Down,0.5935,231,7.70,State transition
+2026-11-21 18:31:13.101,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,STGCN,GREEN,YELLOW,Lying,0.8571,423,14.10,State transition
+2026-11-21 18:31:44.166,upload:Fall_demo_01-00.00.00.000-00.00.15.592.mp4,ENSEMBLE,GREEN,YELLOW,Lying,0.8498,435,14.50,State transition
+2026-11-23 16:07:06.222,upload:fall (1).mp4,STGCN,GREEN,RED,Fall,0.7501,101,4.20,RED latched (Critical Fall)
+2026-11-23 16:07:21.833,upload:fall (1).mp4,STGCN,GREEN,RED,Fall,0.7501,101,4.20,RED latched (Critical Fall)
+2026-11-23 16:07:33.373,upload:lying.mp4,STGCN,GREEN,YELLOW,Lying,0.9420,51,1.70,State transition
+2026-11-23 19:27:49.491,upload:fall (1).mp4,STGCN,GREEN,RED,Fall,0.8780,94,3.90,RED latched (Critical Fall)
+2026-11-23 19:32:01.046,upload:fall (1).mp4,LSTM,GREEN,RED,Fall,0.8989,125,5.20,RED latched (Critical Fall)
+2026-11-23 19:32:14.467,upload:fall (1).mp4,ENSEMBLE,GREEN,RED,Fall,0.9307,122,5.10,RED latched (Critical Fall)
+2026-11-23 19:32:50.948,upload:fall (1).mp4,ENSEMBLE,GREEN,RED,Fall,0.9307,122,5.10,RED latched (Critical Fall)
+2026-11-23 19:33:10.772,upload:fall (1).mp4,STGCN,GREEN,RED,Fall,0.8780,94,3.90,RED latched (Critical Fall)
+2026-11-23 19:33:22.129,upload:fall (1).mp4,STGCN,RED,RED_UNLATCHED,Fall,0.9028,271,11.40,Operator acknowledged RED alert (unlatched; awaiting recovery to GREEN)
+2026-11-24 15:25:39.620,upload:fall (1).mp4,STGCN,GREEN,RED,Fall,0.8780,94,3.90,RED latched (Critical Fall)
+2026-11-24 15:31:33.515,upload:sit down.mp4,STGCN,GREEN,YELLOW,Lying,0.7051,576,9.60,State transition
+2026-11-26 13:50:17.642,bundled:demo_fall.mp4,STGCN,GREEN,RED,Fall,0.9981,82,3.40,RED latched (Critical Fall)
+2026-11-26 13:50:25.683,bundled:demo_crouching.mp4,STGCN,GREEN,YELLOW,Crouching,1.0000,51,1.70,State transition
+2026-11-26 13:52:24.151,upload:sit down.mp4,STGCN,GREEN,YELLOW,Lying,0.7051,576,9.60,State transition
+2026-11-26 13:53:17.515,demo:Crouching/003.mp4,STGCN,GREEN,YELLOW,Crouching,0.9717,51,1.70,State transition
+2026-11-26 13:53:39.363,demo:Lying/001.avi,STGCN,GREEN,YELLOW,Lying,0.9946,51,1.70,State transition
+2026-11-26 13:53:50.202,demo:Lying/083.mp4,STGCN,GREEN,YELLOW,Lying,0.9880,51,1.70,State transition
+2026-11-26 13:54:03.929,demo:Lying/084.mp4,STGCN,GREEN,YELLOW,Lying,0.9903,51,1.70,State transition
+2026-11-26 13:54:06.814,demo:Lying/084.mp4,STGCN,YELLOW,GREEN,Sit_Down,0.7998,117,3.90,State transition
+2026-11-26 13:54:07.773,demo:Lying/084.mp4,STGCN,GREEN,YELLOW,Lying,0.8963,138,4.60,State transition
+2026-11-26 19:15:42.267,upload:fall (1).mp4,STGCN,GREEN,RED,Fall,0.8864,98,4.10,RED latched (Critical Fall)
+2026-11-26 19:16:11.433,upload:fall (1).mp4,STGCN,GREEN,RED,Fall,0.8864,98,4.10,RED latched (Critical Fall)
+2026-11-26 19:18:06.164,upload:lying.mp4,STGCN,GREEN,YELLOW,Lying,0.9457,51,1.70,State transition
+2026-11-26 19:36:06.067,upload:fall (1).mp4,STGCN,GREEN,RED,Fall,0.8864,98,4.10,RED latched (Critical Fall)
+2026-11-26 19:40:09.961,bundled:demo_crouching.mp4,STGCN,GREEN,YELLOW,Crouching,0.9685,51,1.70,State transition
